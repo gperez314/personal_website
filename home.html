@@ -1,0 +1,68 @@
+ <!-- HTML: Home Page -->
+ <!-- TECH1101: Personal Website -->
+ <!--by: Glenn Perez  -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Home | Glenn Perez' Personal Website</title>
+     <link rel="stylesheet" href="styles.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+ </head>
+
+ <body>
+     <!-- Page Header -->
+     <header id="headerContainer">
+         <div id="avatarDiv">
+             <a><img id="avatar" class="avatar" src="avatar.jpg" alt="Glenn Perez"></a>
+         </div>
+         <div id="navDiv">
+             <nav id="navMain" class="nav">
+                 <ul class="nav">
+                     <li class="nav"><a href="home.html" class="navText coloredText2" id="home">Home</a></li>
+                     <li class="nav"><a href="resume.html" class="navText coloredText2" id="resume">Resume</a></li>
+                     <li class="nav"><a href="projects.html" class="navText coloredText2" id="projects">Projects</a>
+                     </li>
+                     <li class="nav"><a href="cheatsheet.html" class="navText coloredText2" id="cheatsheet">Cheat
+                             Sheet</a></li>
+                 </ul>
+             </nav>
+             <div id="themeButtonDiv" class="button-cover nav">
+                 <div class="button r nav" id="button-1">
+                     <input id="themeButton" type="checkbox" class="checkbox nav">
+                     <div class="knobs nav"></div>
+                     <div class="layer nav"></div>
+                 </div>
+             </div>
+         </div>
+     </header>
+     <!-- Homepage Main Content -->
+     <main id="mainContainer">
+         <div id="mainDiv">
+             <div id="mainHeading" class="coloredText3"> I am <span class="coloredText1">Glenn</span>, a <span
+                     class="typed-text coloredText1"></span><span class="cursor blink">&nbsp;</span></div>
+             <div id="workTogetherDiv"><a href="resume.html" id="workTogether"
+                     class="coloredText4 coloredBackground">Let's
+                     work together!</a></div>
+             <div id="seePrevProjDiv"><a href="projects.html" class="coloredText2 link" id="seePrevProj">See previous
+                     projects</a></div>
+             <div id="learnCodeDiv"><a href="cheatsheet.html" class="coloredText2 link" id="learnCode">Learn how to
+                     code</a></div>
+         </div>
+     </main>
+     <!-- Page Footer -->
+     <footer>
+         <div id="footerDiv" class="coloredText2">
+             Made by <span class="coloredText1">Glenn Perez</span> using <span class="coloredText1">HTML</span>,
+             <span class="coloredText1">CSS</span>, and <span class="coloredText1">Javascript</span>.
+         </div>
+     </footer>
+     <script src="script.js"></script>
+ </body>
+
+ </html>

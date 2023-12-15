@@ -1,0 +1,202 @@
+ <!-- HTML: Resume Page -->
+ <!-- TECH1101: Personal Website -->
+ <!--by: Glenn Perez  -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Resume | Glenn Perez' Personal Website</title>
+     <link rel="stylesheet" href="styles.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+ </head>
+
+ <body>
+     <!-- Page Header -->
+     <header id="headerContainer">
+         <div id="avatarDiv">
+             <a><img id="avatar" class="avatar" src="avatar.jpg" alt="Glenn Perez"></a>
+         </div>
+         <div id="navDiv">
+             <nav id="navMain" class="nav">
+                 <ul class="nav">
+                     <li class="nav"><a href="home.html" class="navText coloredText2" id="home">Home</a></li>
+                     <li class="nav"><a href="resume.html" class="navText coloredText2" id="resume">Resume</a></li>
+                     <li class="nav"><a href="projects.html" class="navText coloredText2" id="projects">Projects</a>
+                     </li>
+                     <li class="nav"><a href="cheatsheet.html" class="navText coloredText2" id="cheatsheet">Cheat
+                             Sheet</a></li>
+                 </ul>
+             </nav>
+             <div id="themeButtonDiv" class="button-cover nav">
+                 <div class="button r nav" id="button-1">
+                     <input id="themeButton" type="checkbox" class="checkbox nav">
+                     <div class="knobs nav"></div>
+                     <div class="layer nav"></div>
+                 </div>
+             </div>
+         </div>
+     </header>
+     <!-- Resume Main Content -->
+     <main id="resumeContainer">
+         <div id="resumeDiv">
+             <!-- Resume Avatar and Title -->
+             <div id="ResumeTitleDiv">
+                 <div id="resumeTitle">
+                     <a><img id="resumepic" class="avatar" src="resume_pic.jpg" alt="Glenn Perez"></a>
+                     <h1 id="resumeName" class="resumeHeading coloredText1">Glenn Perez</h1>
+                     <h3 id="resumePositions" class="coloredText2">Certified LabVIEW Developer, Engineer, Programmer
+                     </h3>
+                 </div>
+                 <div id="resumeTitleDesc">
+                     <p class="resumeContent coloredText3">I am an Electronics Engineer and a Certified LabVIEW
+                         Developer
+                         specializing
+                         in Machine Vision and Factory Automation. I have extensive industry experience working on a
+                         Philippine-based company doing robotics and test developments for semiconductors. I have also
+                         experience working for overseas clients to help maintain their software products used in
+                         electrical and power systems design and simulation.</p>
+                     <p class="resumeContent coloredText3">I am currently taking a diploma in Software Development at
+                         Bow
+                         Valley
+                         College. I want to leverage my technical skills even further and explore the field of mobile
+                         and
+                         web development.</p>
+                 </div>
+             </div>
+             <!-- Work Experience -->
+             <div id="WorkExperienceDiv" class="resumeSub">
+                 <h2 id="workExp" class="resumeMainHeading coloredText1">PROFESSIONAL EXPERIENCE</h2>
+                 <div id="workElek" class="workExpDiv">
+                     <div class="workName">
+                         <h3 class="workTitle resumeContent coloredText1">Remote Software Developer</h3>
+                         <h3 class="workCompany resumeContent coloredText2">Electrotechnik Pty Ltd</h3>
+                         <p class="workPlace coloredText3">07/2020 - 08/2023 | Sydney, Australia</p>
+                         <p class="workDesc resumeContent coloredText3">Software company which develops Electrical Power
+                             Systems
+                             Design and Analysis Software with market-leading products for electrical power engineering
+                             and renewable industries.</p>
+                     </div>
+                     <div class="workDutiesDiv">
+                         <h3 class="workDuties resumeHeading coloredText2">Duties and Responsibilities</h3>
+                         <ul class="workResp coloredText3">
+                             <li class="workResp resumeContent">Maintain company software products to ensure accurate
+                                 results following industry standards while providing excellent user experience.</li>
+                             <li class="workResp resumeContent">Coordinates the planning, design and implementation of
+                                 software upgrades to ensure smooth execution from development to production.</li>
+                             <li class="workResp resumeContent">Migrate codes involving complex electrical calculations
+                                 from Matlab to Labview to be used as main calculation algorithm in the backend.</li>
+                             <li class="workResp resumeContent">Execute UI changes and add new features to existing
+                                 software products based on specifications.</li>
+                             <li class="workResp resumeContent">Develop dynamic-link library (.dll) for web-based
+                                 software products.</li>
+                             <li class="workResp resumeContent">Perform developer and validation tests prior to actual
+                                 product release.</li>
+                         </ul>
+                     </div>
+                 </div>
+                 <div id="workGP" class="workExpDiv">
+                     <div class="workName">
+                         <h3 class="workTitle resumeContent coloredText1">Applications Engineer</h3>
+                         <h3 class="workCompany resumeContent coloredText2">GP Synergia Technologies Corp.</h3>
+                         <p class="workPlace coloredText3">01/2017 - 03/2020 | Cavite, Philippines</p>
+                         <p class="workDesc resumeContent coloredText3">National Instruments' Silver Alliance Company
+                             specializing in
+                             factory automation and test
+                             development for semiconductors</p>
+                     </div>
+                     <div class="workDutiesDiv">
+                         <h3 class="workDuties resumeHeading coloredText2">Duties and Responsibilities</h3>
+                         <ul class="workResp coloredText3">
+                             <li class="workResp resumeContent">Coordinates the planning, design, and installation of
+                                 machinery and equipment in an industrial environment, using knowledge of engineering
+                                 and
+                                 programming.</li>
+                             <li class="workResp resumeContent">Provides Proof of Concepts (POC's) to customers based on
+                                 their requirement</li>
+                             <li class="workResp resumeContent">Configure control system, and select appropriate
+                                 hardware
+                                 for project requirement.</li>
+                             <li class="workResp resumeContent">Perform necessary machine vision calculations and select
+                                 appropriate vision hardware configuration to create an automated vision system set-up.
+                             </li>
+                             <li class="workResp resumeContent">Responsible for the overall software architecture and
+                                 any
+                                 other duties related to software control of the machine. Write operating instructions
+                                 or
+                                 programs to integrate the chosen component to the specific job application.</li>
+                             <li class="workResp resumeContent">On site servicing, installation and troubleshooting.
+                             </li>
+                         </ul>
+                     </div>
+                 </div>
+             </div>
+             <!-- Technical Skills -->
+             <div id="techSkillsDiv" class="resumeSub">
+                 <h2 id="techSkills" class="resumeMainHeading coloredText1">TECHNICAL SKILLS</h2>
+                 <div id="techskillDiv">
+                     <ul id="techskillList" class="coloredText4">
+                         <li class="tskill coloredBackground">LabVIEW Programming</li>
+                         <li class="tskill coloredBackground">MatLAB Programming</li>
+                         <li class="tskill coloredBackground">Machine Vision Programming</li>
+                         <li class="tskill coloredBackground">Machine Integration and Factory Automation</li>
+                         <li class="tskill coloredBackground">Embedded and Control Systems</li>
+                         <li class="tskill coloredBackground">Motor Control and Programming</li>
+                         <li class="tskill coloredBackground">Control System Configuration</li>
+                         <li class="tskill coloredBackground">On-site Servicing and Installation</li>
+                     </ul>
+                 </div>
+             </div>
+             <!-- Licenses and Certifications -->
+             <div id="CertiDiv" class="resumeSub">
+                 <h2 id="LicAndCerti" class="resumeMainHeading coloredText1">LICENSES AND CERTIFICATIONS</h2>
+                 <div class="certi resumeMainHeading">
+                     <h3 class="certiName resumeContent coloredText2">Certified LabVIEW Developer</h3>
+                     <p class="certiNumber coloredText3">Certificate No: 100-917-11216</p>
+                 </div>
+                 <div class="certi resumeMainHeading">
+                     <h3 class="certiName resumeContent coloredText2">Certified LabVIEW Associate Developer</h3>
+                     <p class="certiNumber coloredText3">Certificate No: 100-317-17949</p>
+                 </div>
+                 <div class="certi resumeMainHeading">
+                     <h3 class="certiName resumeContent coloredText2">Electronics Engineer</h3>
+                     <p class="certiNumber coloredText3">Philippine License No: 0065359</p>
+                 </div>
+                 <div class="certi resumeMainHeading">
+                     <h3 class="certiName resumeContent coloredText2">Electronics Technician</h3>
+                     <p class="certiNumber coloredText3">Philippine License No: 0004989</p>
+                 </div>
+             </div>
+             <!-- Education -->
+             <div id="educDiv" class="resumeSub">
+                 <h2 id="educ" class="resumeMainHeading coloredText1">EDUCATION</h2>
+                 <div class="educ resumeMainHeading">
+                     <h3 class="educCourse resumeContent coloredText2">Software Development Diploma</h3>
+                     <p class="educSchool resumeContent coloredText3">Bow Valley College</p>
+                     <p class="educPlace resumeContent coloredText3">Calgary, Alberta, Canada</p>
+                     <p class="educDate coloredText3">09/2023 - Present</p>
+                 </div>
+                 <div class="educ resumeMainHeading">
+                     <h3 class="educCourse resumeContent coloredText2">BS in Electronics Engineering</h3>
+                     <p class="educSchool resumeContent coloredText3">De La Salle Lipa</p>
+                     <p class="educPlace resumeContent coloredText3">Batangas, Philippines</p>
+                     <p class="educDate coloredText3">06/2011 - 04/2016</p>
+                 </div>
+             </div>
+         </div>
+     </main>
+     <!-- Page Footer -->
+     <footer>
+         <div id="footerDiv" class="coloredText2">
+             Made by <span class="coloredText1">Glenn Perez</span> using <span class="coloredText1">HTML</span>,
+             <span class="coloredText1">CSS</span>, and <span class="coloredText1">Javascript</span>.
+         </div>
+     </footer>
+     <script src="script.js"></script>
+ </body>
+
+ </html>

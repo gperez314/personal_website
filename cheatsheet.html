@@ -1,0 +1,417 @@
+ <!-- HTML: Cheat Sheet Page -->
+ <!-- TECH1101: Personal Website -->
+ <!--by: Glenn Perez  -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Cheat Sheet | Glenn Perez' Personal Website</title>
+     <link rel="stylesheet" href="styles.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+ </head>
+
+ <body>
+     <!-- Page Header -->
+     <header id="headerContainer">
+         <div id="avatarDiv">
+             <a><img id="avatar" class="avatar" src="avatar.jpg" alt="Glenn Perez"></a>
+         </div>
+         <div id="navDiv">
+             <nav id="navMain" class="nav">
+                 <ul class="nav">
+                     <li class="nav"><a href="home.html" class="navText coloredText2" id="home">Home</a></li>
+                     <li class="nav"><a href="resume.html" class="navText coloredText2" id="resume">Resume</a></li>
+                     <li class="nav"><a href="projects.html" class="navText coloredText2" id="projects">Projects</a>
+                     </li>
+                     <li class="nav"><a href="cheatsheet.html" class="navText coloredText2" id="cheatsheet">Cheat
+                             Sheet</a></li>
+                 </ul>
+             </nav>
+             <div id="themeButtonDiv" class="button-cover nav">
+                 <div class="button r nav" id="button-1">
+                     <input id="themeButton" type="checkbox" class="checkbox nav">
+                     <div class="knobs nav"></div>
+                     <div class="layer nav"></div>
+                 </div>
+             </div>
+         </div>
+     </header>
+     <!-- Cheatsheet Page Main Content -->
+     <main id="CSContainer">
+         <!-- HTML Cheatsheet -->
+         <div class="csSub">
+             <h2 class="coloredText1">HTML (HyperText Markup Language)</h2>
+             <hr class="lineBreak">
+             <p class="csContent csTag coloredText2">&lt;html&gt; … &lt;/html&gt;</p>
+             <p class="csContent coloredText3">The tag shows up at the beginning and end of an HTML
+                 document (known as the root element). It indicates that the webpage is written in HTML5, and all
+                 other page markup comes in between these beginning and ending tags.</p>
+             <p class="csContent csTag coloredText2">&lt;head&gt; … &lt;/head&gt;</p>
+             <p class="csContent coloredText3">This contains information about the specific page, including the title
+                 tags,
+                 meta data, and links to scripts and style sheets.</p>
+             <p class="csContent csTag coloredText2">&lt;title&gt; … &lt;/title&gt;</p>
+             <p class="csContent coloredText3">The title tag is the title for that page, useful for both search engines
+                 (when they scan and index pages) and users (showing up in a browser's title bar) by explicitly
+                 stating the primary topic of each page..</p>
+             <p class="csContent csTag coloredText2">&lt;body&gt; … &lt;/body&gt;</p>
+             <p class="csContent coloredText3">Body tags include all content that will be shown to users, including
+                 everything they'll see & read.</p>
+             <p class="csContent csTag coloredText2">&lt;link&gt;</p>
+             <p class="csContent coloredText3">Can be used to a create relationships with external pages or documents,
+                 including style sheets.</p>
+             <p class="csContent csTag coloredText2">&lt;h1..h6&gt; … &lt;/h1..h6&gt;</p>
+             <p class="csContent coloredText3">All six levels of Headings, with 1 being the most important on a page and
+                 6 being the least. These elements are used to describe content sections on a page.</p>
+             <p class="csContent csTag coloredText2">&lt;div&gt; … &lt;/div&gt;</p>
+             <p class="csContent coloredText3">A generic container used to denote a page section or block.</p>
+             <p class="csContent csTag coloredText2">&lt;span&gt; … &lt;/span&gt;</p>
+             <p class="csContent coloredText3">An inline section or block container, typically used for grouping styling
+                 elements.</p>
+             <p class="csContent csTag coloredText2">&lt;p&gt; … &lt;/p&gt;</p>
+             <p class="csContent coloredText3">This foundational tag is used to organize paragraphs of text.</p>
+             <p class="csContent csTag coloredText2">&lt;br&gt;</p>
+             <p class="csContent coloredText3">Creates a line break (or old-school carriage-return), useful for writing
+                 blocks of text that need to be on different lines (think addresses, etc.)</p>
+             <p class="csContent csTag coloredText2">&lt;hr&gt;</p>
+             <p class="csContent coloredText3">Creates a horizontal rule, a sectional break in an HTML page. Typically
+                 used to denote a change in topic or section of a page.</p>
+             <p class="csContent csTag coloredText2">&lt;strong&gt; … &lt;/strong&gt;</p>
+             <p class="csContent coloredText3">Exactly like it sounds, indicating STRONG emphasis, displayed bold in
+                 most
+                 browsers.</p>
+             <p class="csContent csTag coloredText2">&lt;em&gt; … &lt;/em&gt;</p>
+             <p class="csContent coloredText3">The emphasis tags also are like they sound, emphasizing text or phrases
+                 displayed as italics in most browsers.</p>
+             <p class="csContent csTag coloredText2">&lt;cite&gt; … &lt;/cite&gt;</p>
+             <p class="csContent coloredText3">Tags used to cite or reference information, useful for quotes and
+                 statements in a document.</p>
+             <p class="csContent csTag coloredText2">&lt;blockquote&gt; … &lt;/blockquote&gt;</p>
+             <p class="csContent coloredText3">Reserved for long paragraphs of quotations, often cited.</p>
+             <p class="csContent csTag coloredText2">&lt;abbr&gt; … &lt;/abbr&gt;</p>
+             <p class="csContent coloredText3">These help denote abbreviations, while also making the full
+                 form available.</p>
+             <p class="csContent csTag coloredText2">&lt;address&gt; … &lt;/address&gt;</p>
+             <p class="csContent coloredText3">A helpfully obvious tag that displays the author's contact information.
+             </p>
+             <p class="csContent csTag coloredText2">&lt;sub&gt; … &lt;/sub&gt;</p>
+             <p class="csContent coloredText3">A helpful way to subscript text (shrinking it and placing
+                 it a half line lower than the previous text).</p>
+             <p class="csContent csTag coloredText2">&lt;sup&gt; … &lt;/sup&gt;</p>
+             <p class="csContent coloredText3">Similar to the previous subscript, however this time
+                 placing it a half line higher than the previous text.</p>
+             <p class="csContent csTag coloredText2">&lt;img&gt;</p>
+             <p class="csContent coloredText3">An image tag to include and display image files.</p>
+             <p class="csContent csTag coloredText2">&lt;ol&gt; … &lt;/ol&gt;</p>
+             <p class="csContent coloredText3">Create numbered (ordered) lists showing sequential order, preference or
+                 priority.</p>
+             <p class="csContent csTag coloredText2">&lt;ul&gt; … &lt;/ul&gt;</p>
+             <p class="csContent coloredText3">Display a bulleted (unordered) list without any extra emphasis on order
+                 of
+                 importance.</p>
+             <p class="csContent csTag coloredText2">&lt;li&gt; … &lt;/li&gt;</p>
+             <p class="csContent coloredText3">Specifies each list item to be bulleted or numbered.</p>
+             <p class="csContent csTag coloredText2">&lt;dl&gt; … &lt;/dl&gt;</p>
+             <p class="csContent coloredText3">Reserved specifically for list items definitions.</p>
+             <p class="csContent csTag coloredText2">&lt;table&gt; … &lt;/table&gt;</p>
+             <p class="csContent coloredText3">The table tag identifies and contains all table related content.</p>
+             <p class="csContent csTag coloredText2">&lt;thead&gt; … &lt;/thead&gt;</p>
+             <p class="csContent coloredText3">The table headers describe the type of information contained in each
+                 column underneath.</p>
+             <p class="csContent csTag coloredText2">&lt;tbody&gt; … &lt;/tbody&gt;</p>
+             <p class="csContent coloredText3">The table body contains the table's data or information.</p>
+             <p class="csContent csTag coloredText2">&lt;tfoot&gt; … &lt;/tfoot&gt;</p>
+             <p class="csContent coloredText3">Table footers describe all footer content.</p>
+             <p class="csContent csTag coloredText2">&lt;tr&gt; … &lt;/tr&gt;</p>
+             <p class="csContent coloredText3">Contains the information to be included in a single row of the table.</p>
+             <p class="csContent csTag coloredText2">&lt;th&gt; … &lt;/th&gt;</p>
+             <p class="csContent coloredText3">Contains the actual information or data in a single header item.</p>
+             <p class="csContent csTag coloredText2">&lt;td&gt; … &lt;/td&gt;</p>
+             <p class="csContent coloredText3">Contains the actual information or data in a single table cell.</p>
+             <p class="csContent csTag coloredText2">&lt;colgroup&gt; … &lt;/colgroup&gt;</p>
+             <p class="csContent coloredText3">Groups a single (or multiple) columns for formatting purposes..</p>
+         </div>
+         <!-- CSS Cheatsheet -->
+         <div class="csSub">
+             <h2 class="coloredText1">CSS (Cascading Style Sheets)</h2>
+             <hr class="lineBreak">
+             <p class="csContent csTag coloredText2">Univesal Selector</p>
+             <p class="csContent coloredText3">Selects all elements on the pages.
+                 Syntax: *{property:value;} </p>
+             <p class="csContent csTag coloredText2">Type Selector</p>
+             <p class="csContent coloredText3">Selects all HTML tag/element of given type in your document.
+                 Syntax: p {property:value;}</p>
+             <p class="csContent csTag coloredText2">ID Selector</p>
+             <p class="csContent coloredText3">Selects an element based on the value of its unique id attribute.
+                 Syntax: #id {property:value;}</p>
+             <p class="csContent csTag coloredText2">Class Selector</p>
+             <p class="csContent coloredText3">Selects all elements in the document that have the given class attribute.
+                 Syntax: .class {property:value;}</p>
+             <p class="csContent csTag coloredText2">Attribute Selector</p>
+             <p class="csContent coloredText3">Selects all elements that have a specified attribute.
+                 Syntax: a[attribute=value] {property:value;}</p>
+             <p class="csContent csTag coloredText2">Combinators</p>
+             <p class="csContent coloredText3">Complex selectors consisting of more than one selectors having some
+                 relationship between them.
+                 Syntax: selector1 selector2/ selector 1+selector2 / selector 1> selector 2 {property: value;}</p>
+             <p class="csContent csTag coloredText2">Pseudo-class Selector</p>
+             <p class="csContent coloredText3">Define the special state of an element to add an effect to an existing
+                 element based on its states.
+                 Syntax: selector: pseudo-class{property: value;}</p>
+             <p class="csContent csTag coloredText2">Font-family</p>
+             <p class="csContent coloredText3">Specifies the font family to be used for the element's text content.
+                 Syntax: font-family: family-name |generic-family |initial |inherit;</p>
+             <p class="csContent csTag coloredText2">Font-style</p>
+             <p class="csContent coloredText3">Styles the text content in a normal, italic, or oblique face from its
+                 font-family.
+                 Syntax: font-style: normal |italic |oblique |initial |inherit;</p>
+             <p class="csContent csTag coloredText2">Font-weight</p>
+             <p class="csContent coloredText3">Specifies thickness or weight of the font.
+                 Syntax: font-weight: normal| bold |number |initial |inherit |unset;</p>
+             <p class="csContent csTag coloredText2">Font-size</p>
+             <p class="csContent coloredText3">Specifies the size of the text in HTML document.
+                 Syntax: font-size: small |medium |large |initial |inherit;</p>
+             <p class="csContent csTag coloredText2">Text-color</p>
+             <p class="csContent coloredText3">Sets the color of the text.
+                 Syntax: color: value;</p>
+             <p class="csContent csTag coloredText2">Text-alignment</p>
+             <p class="csContent coloredText3">Defines the horizontal alignment of the text.
+                 Syntax: text-align: left|right|center|justify|initial|inherit;</p>
+             <p class="csContent csTag coloredText2">Text-decoration</p>
+             <p class="csContent coloredText3">Add or remove text- decorations.
+                 Syntax: text-decoration: decoration-type;</p>
+             <p class="csContent csTag coloredText2">Text-transformation</p>
+             <p class="csContent coloredText3">Changes the case(uppercase|lowercase) of text.
+                 Syntax: text-transform: none|capitalize|uppercase|lowercase|initial|inherit;</p>
+             <p class="csContent csTag coloredText2">Text-indentation</p>
+             <p class="csContent coloredText3">Indents the first line of text block.
+                 Syntax: text-indent: length|initial|inherit;</p>
+             <p class="csContent csTag coloredText2">Letter spacing</p>
+             <p class="csContent coloredText3">Specifies spacing between the characters of the text.
+                 Syntax: letter-spacing: normal|length|initial|inherit;</p>
+             <p class="csContent csTag coloredText2">Line height</p>
+             <p class="csContent coloredText3">Specifies the space between the lines of the text.
+                 Syntax: line-height: normal|number|length|percentage|initial|inherit;</p>
+             <p class="csContent csTag coloredText2">Word spacing</p>
+             <p class="csContent coloredText3">Specifies space between words of lines.
+                 Syntax: word-spacing: normal|length|initial|inherit;</p>
+             <p class="csContent csTag coloredText2">Background-color</p>
+             <p class="csContent coloredText3">Specifies the background color of an element.
+                 Syntax: background-color:color_name;</p>
+             <p class="csContent csTag coloredText2">Background-image</p>
+             <p class="csContent coloredText3">Adds one or more background images to an element.
+                 Syntax: background-image:url('url');</p>
+             <p class="csContent csTag coloredText2">Background-repeat</p>
+             <p class="csContent coloredText3">Adds or remove repeat the background image both horizontally and
+                 vertically.
+                 Syntax: background-repeat: repeat|repeat-x|repeat-y|no-repeat|initial|inherit;</p>
+             <p class="csContent csTag coloredText2">Background-position</p>
+             <p class="csContent coloredText3">Specifies the positioning of the image in a certain way.
+                 Syntax: background-position: value;</p>
+             <p class="csContent csTag coloredText2">Background-origin</p>
+             <p class="csContent coloredText3">Used to adjust the background image of the webpage.
+                 Syntax: background-origin: padding-box|border-box|content-box|initial|inherit;</p>
+             <p class="csContent csTag coloredText2">Background-attachment</p>
+             <p class="csContent coloredText3">Specifies the kind of attachment of the background image in its
+                 container.
+                 Syntax: background-attachment: scroll|fixed|local|initial|inherit;</p>
+             <p class="csContent csTag coloredText2">Margin</p>
+             <p class="csContent coloredText3">Used to set the margin.
+                 Syntax: margin: value;</p>
+             <p class="csContent csTag coloredText2">Padding</p>
+             <p class="csContent coloredText3">Specifies the space between the border and the content of the selector.
+                 Syntax: padding: value;</p>
+             <p class="csContent csTag coloredText2">Border</p>
+             <p class="csContent coloredText3">Sets the element's border width and set the style, and color of an
+                 element's border.
+                 Syntax: border: value;</p>
+             <p class="csContent csTag coloredText2">Width</p>
+             <p class="csContent coloredText3">Used to set an element's width.
+                 Syntax: width: value;</p>
+             <p class="csContent csTag coloredText2">Height</p>
+             <p class="csContent coloredText3">Used to set an element's height.
+                 Syntax: height: value;</p>
+             <p class="csContent csTag coloredText2">Border Color</p>
+             <p class="csContent coloredText3">Specifies the color of the border of the box. Works only when the
+                 border-style property is defined.
+                 Syntax: border-color: color-value;</p>
+             <p class="csContent csTag coloredText2">Border Style</p>
+             <p class="csContent coloredText3">Sets the style of the border as solid, dotted, rigged, etc.
+                 Syntax: border-style: value;</p>
+             <p class="csContent csTag coloredText2">Border Width</p>
+             <p class="csContent coloredText3">Sets the width of the border of the element.
+                 Syntax: border-width: length |thin |medium |thick |initial |inherit</p>
+             <p class="csContent csTag coloredText2">Display</p>
+             <p class="csContent coloredText3">Defines how elements are displayed in the web page.
+                 Syntax: display: inline|block|flex|grid|table|group|none|inherit;</p>
+             <p class="csContent csTag coloredText2">Float</p>
+             <p class="csContent coloredText3">Defines flow of content.
+                 Syntax: float: none|left|right|initial|inherit;</p>
+             <p class="csContent csTag coloredText2">Position</p>
+             <p class="csContent coloredText3">Specifies the positioning method of html entity on the web page.
+                 Syntax: position: fixed|static|absolute|relative|sticky;</p>
+             <p class="csContent csTag coloredText2">Clear</p>
+             <p class="csContent coloredText3">Sets the sides of an element where no other floating elements are
+                 allowed.
+                 Syntax: clear: left|right|both|none;</p>
+             <p class="csContent csTag coloredText2">Visibility</p>
+             <p class="csContent coloredText3">Set an element as visible or not.
+                 Syntax: visibility: visible|hidden|collapse|initial|inherit;</p>
+             <p class="csContent csTag coloredText2">calc()</p>
+             <p class="csContent coloredText3">Takes a single mathematical expression as its parameter and performs
+                 operations.
+                 Syntax: calc( Expression );</p>
+             <p class="csContent csTag coloredText2">max()</p>
+             <p class="csContent coloredText3">Returns the largest number of the given set of comma separated numbers.
+                 Syntax: max(value 1, value2, value3…)</p>
+         </div>
+         <!-- JS Cheatsheet -->
+         <div class="csSub">
+             <h2 class="coloredText1">JS (JavaScript)</h2>
+             <hr class="lineBreak">
+             <p class="csContent csTag coloredText2">Assignment Operators</p>
+             <p class="csContent coloredText3">An assignment operator assigns a value to its left operand based on the
+                 value of its right operand. Here are some of them: (+=,-=,*=,/=)</p>
+             <p class="csContent csTag coloredText2">String Interpolation</p>
+             <p class="csContent coloredText3">String interpolation is the process of evaluating string literals
+                 containing one or more placeholders (expressions, variables, etc). It can be performed using template
+                 literals: text ${expression} text.</p>
+             <p class="csContent csTag coloredText2">Variables</p>
+             <p class="csContent coloredText3">Variables are used whenever there's a need to store a piece of data. A
+                 variable contains data that can be used in the program elsewhere. Using variables also ensures code
+                 re-usability since it can be used to replace the same value in multiple places. Variables can be
+                 declared using 'let' or 'var' keyword.</p>
+             <p class="csContent csTag coloredText2">Template Literals</p>
+             <p class="csContent coloredText3">Template literals are strings that allow embedded expressions,
+                 ${expression}. While regular strings use single ' or double " quotes, template literals use backticks
+                 instead.</p>
+             <p class="csContent csTag coloredText2">String Concatenation</p>
+             <p class="csContent coloredText3">In JavaScript, multiple strings can be concatenated together using the +
+                 operator. After execution of the code block, the displayText variable will contain the concatenated
+                 string.</p>
+             <p class="csContent csTag coloredText2">console.log()</p>
+             <p class="csContent coloredText3">The console.log() method is used to log or print messages to the console.
+                 It can also be used to print objects and other info.</p>
+             <p class="csContent csTag coloredText2">Numbers</p>
+             <p class="csContent coloredText3">Numbers are a primitive data type. They include the set of all integers
+                 and floating point numbers.</p>
+             <p class="csContent csTag coloredText2">String .length</p>
+             <p class="csContent coloredText3">The .length property of a string returns the number of characters that
+                 make up the string.</p>
+             <p class="csContent csTag coloredText2">Booleans</p>
+             <p class="csContent coloredText3">Booleans are a primitive data type. They can be either true or false.</p>
+             <p class="csContent csTag coloredText2">Math.random()</p>
+             <p class="csContent coloredText3">The Math.random() method returns a floating-point, random number in the
+                 range from 0 (inclusive) up to but not including 1.</p>
+             <p class="csContent csTag coloredText2">Math.floor()</p>
+             <p class="csContent coloredText3">The Math.floor() function returns the largest integer less than or equal
+                 to the given number.</p>
+             <p class="csContent csTag coloredText2">Single Line Comments</p>
+             <p class="csContent coloredText3">In JavaScript, single-line comments are created with two consecutive
+                 forward slashes //.</p>
+             <p class="csContent csTag coloredText2">Null</p>
+             <p class="csContent coloredText3">Null is a primitive data type. It represents the intentional absence of
+                 value. In code, it is represented as null.</p>
+             <p class="csContent csTag coloredText2">Strings</p>
+             <p class="csContent coloredText3">Strings are a primitive data type. They are any grouping of characters
+                 (letters, spaces, numbers, or symbols) surrounded by single quotes ' or double quotes ".</p>
+             <p class="csContent csTag coloredText2">Arithmetic Operators</p>
+             <p class="csContent coloredText3">JavaScript supports arithmetic operators +,-,*,/,%.</p>
+             <p class="csContent csTag coloredText2">Multi-line Comments</p>
+             <p class="csContent coloredText3">In JavaScript, multi-line comments are created by surrounding the lines
+                 with /* at the beginning and */ at the end. Comments are good ways for a variety of reasons like
+                 explaining a code block or indicating some hints, etc.</p>
+             <p class="csContent csTag coloredText2">Logical Operator ||</p>
+             <p class="csContent coloredText3">The logical OR operator || checks two values and returns a boolean. If
+                 one
+                 or both values are true, it returns true. If both values are false, it returns false.</p>
+             <p class="csContent csTag coloredText2">Ternary Operator</p>
+             <p class="csContent coloredText3">The ternary operator allows for a compact syntax in the case of binary
+                 (choosing between two choices) decisions. It accepts a condition followed by a ? operator, and then two
+                 expressions separated by a :. If the condition evaluates to truthy, the first expression is executed,
+                 otherwise, the second expression is executed.</p>
+             <p class="csContent csTag coloredText2">else Statement</p>
+             <p class="csContent coloredText3">An else block can be added to an if block or series of if-else if blocks.
+                 The else block will be executed only if the if condition fails.</p>
+             <p class="csContent csTag coloredText2">Logical Operator &&</p>
+             <p class="csContent coloredText3">The logical AND operator && checks two values and returns a boolean. If
+                 both values are truthy, then it returns true. If one, or both, of the values is falsy, then it returns
+                 false.</p>
+             <p class="csContent csTag coloredText2">switch Statement</p>
+             <p class="csContent coloredText3">The switch statements provide a means of checking an expression against
+                 multiple case clauses. If a case matches, the code inside that clause is executed. The case clause
+                 should finish with a break keyword. If no case matches but a default clause is included,
+                 the code inside default will be executed. Note: If break is omitted from the block of a case, the
+                 switch
+                 statement will continue to check against
+                 case values until a break is encountered or the flow is broken.</p>
+             <p class="csContent csTag coloredText2">if Statement</p>
+             <p class="csContent coloredText3">An if statement accepts an expression with a set of parentheses. If the
+                 expression evaluates to a truthy value, then the code within its code body executes. If the expression
+                 evaluates to a falsy value, its code body will not execute.</p>
+             <p class="csContent csTag coloredText2">Logical Operator !</p>
+             <p class="csContent coloredText3">The logical NOT operator ! can be used to do one of the following: Invert
+                 a Boolean value. Invert the truthiness of non-Boolean values.</p>
+             <p class="csContent csTag coloredText2">Comparison Operators</p>
+             <p class="csContent coloredText3">Comparison operators are used to comparing two values and return true or
+                 false depending on the validity of the comparison</p>
+             <p class="csContent csTag coloredText2">else if Clause</p>
+             <p class="csContent coloredText3">After an initial if block, else if blocks can each check an additional
+                 condition. An optional else block can be added after the else if block(s) to run by default if none of
+                 the conditionals evaluated to truthy.</p>
+             <p class="csContent csTag coloredText2">Function Expressions</p>
+             <p class="csContent coloredText3">Function expressions create functions inside an expression instead of as
+                 a
+                 function declaration. They can be anonymous and/or assigned to a variable.</p>
+             <p class="csContent csTag coloredText2">Arrays</p>
+             <p class="csContent coloredText3">Arrays are lists of ordered, stored data. They can hold items that are of
+                 any data type. Arrays are created by using square brackets, with individual elements separated by
+                 commas.</p>
+             <p class="csContent csTag coloredText2">Property .length</p>
+             <p class="csContent coloredText3">The .length property of a JavaScript array indicates the number of
+                 elements the array contains.</p>
+             <p class="csContent csTag coloredText2">Method .push()</p>
+             <p class="csContent coloredText3">The .push() method of JavaScript arrays can be used to add one or more
+                 elements to the end of an array. .push() mutates the original array and returns the new length of the
+                 array.</p>
+             <p class="csContent csTag coloredText2">Method .pop()</p>
+             <p class="csContent coloredText3">The .pop() method removes the last element from an array and returns that
+                 element.</p>
+             <p class="csContent csTag coloredText2">this Keyword</p>
+             <p class="csContent coloredText3">The reserved keyword this refers to a method's calling object, and it can
+                 be used to access properties belonging to that object.</p>
+             <p class="csContent csTag coloredText2">Objects</p>
+             <p class="csContent coloredText3">An object is a built-in data type for storing key-value pairs. Data
+                 inside
+                 objects are unordered, and the values can be of any type.</p>
+             <p class="csContent csTag coloredText2">for...in loop</p>
+             <p class="csContent coloredText3">The JavaScript for...in loop can be used to iterate over the keys of an
+                 object. In each iteration, one of the properties from the object is assigned to the variable of that
+                 loop.</p>
+             <p class="csContent csTag coloredText2">for...of loop</p>
+             <p class="csContent coloredText3">The for...of statement executes a loop that operates on a sequence of
+                 values sourced from an iterable object. In each iteration, one of the properties from the object is
+                 assigned to the variable of that loop.</p>
+             <p class="csContent csTag coloredText2">Delete operator</p>
+             <p class="csContent coloredText3">Once an object is created in JavaScript, it is possible to remove
+                 properties from the object using the delete operator. The delete keyword deletes both the value of the
+                 property and the property itself from the object. The delete operator only works on properties, not on
+                 variables or functions.</p>
+         </div>
+     </main>
+     <!-- Page Footer -->
+     <footer>
+         <div id="footerDiv" class="coloredText2">
+             Made by <span class="coloredText1">Glenn Perez</span> using <span class="coloredText1">HTML</span>,
+             <span class="coloredText1">CSS</span>, and <span class="coloredText1">Javascript</span>.
+         </div>
+     </footer>
+     <script src="script.js"></script>
+ </body>
+
+ </html>
